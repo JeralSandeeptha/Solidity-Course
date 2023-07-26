@@ -39,3 +39,16 @@ Other programming languages for smart contracts.
 * view, pure: Function modifiers used to indicate that a function does not modify the state of the contract* .
 * external, public, internal, private: Visibility modifiers used to define who can access functions and state variables.
 * payable: Used to indicate that a function can receive Ether (ETH) as part of the transaction.
+
+******************* Data Types *******************
+
+(1.) Value Data Types          --> Boolean
+                               --> Integer
+                               --> Address
+                               --> Fixed Point Numbers
+                               --> Byte and Strings
+                               --> Enums
+
+(2.) Reference Data Types      --> arrays   
+                               --> Struct
+                               --> Mapping
