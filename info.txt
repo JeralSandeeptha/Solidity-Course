@@ -1,0 +1,41 @@
+******************* Basic *******************
+
+compiler --> EVM (Ethereum Virtual Machine)
+Hardhat  --> For deployment and testing smart contract
+
+******************* Architecture *******************
+
+Two types --> (1.) React + <-- ether.js --> + Solidity(Hardhat)
+              (2.) React + Solidity(Hardhat) + <-- ether.js --> + NodeJS API + Database
+
+******************* Languages *******************
+
+Other programming languages for smart contracts.
+
+(1.) Rust     --> Low community
+              --> Low libraries
+(2.) Vyper    --> 
+(3.) Go       --> Similar to Rust
+(3.) Yel      --> Similar to Go
+(4.) Solidity --> Static type language
+              --> huge libraries
+              --> For Ethereum blockchain
+
+
+******************* Keywords *******************
+
+* pragma: Used to declare the version of Solidity the contract is written in and any additional settings.
+* contract: Defines the start of a contract and is followed by the contract's name and its content.
+* function: Used to define functions within a contract, which can be called to execute specific actions.
+* constructor: A special function that is run only once when the contract is deployed. It is used for contract initialization.
+* return: Used inside functions to specify the return value of the function.
+* if, else: Keywords used for conditional statements, allowing the contract to make decisions based on certain conditions.
+* for, while: Keywords for loop constructs, used to repeat a block of code based on certain conditions.
+* mapping: Used to define key-value data structures. Commonly used to create associative arrays or lookup tables.
+* struct: Used to define custom data structures, allowing you to create complex data types.
+* enum: Used to define an enumeration, which represents a set of named constants.
+* modifier: Used to define function modifiers that can be applied to other functions to modify their behavior.
+* event: Used to define events, which are used to log specific information on the blockchain.
+* view, pure: Function modifiers used to indicate that a function does not modify the state of the contract* .
+* external, public, internal, private: Visibility modifiers used to define who can access functions and state variables.
+* payable: Used to indicate that a function can receive Ether (ETH) as part of the transaction.
